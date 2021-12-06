@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     public Vector3 syringe_position;
     int coolDown = 0;
     int shotsFired = 0;
+    public float timer;
+    public float timerLeft = 1.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,8 +37,10 @@ public class PlayerController : MonoBehaviour
                  else if (Input.GetKey (KeyCode.RightArrow)) {
                      transform.eulerAngles = new Vector3(0,90,0);
                  }
-                  if(Input.GetKeyDown(KeyCode.Space)){
+                 timer += Time.deltaTime;
+                  if(Input.GetKeyDown(KeyCode.Space) && timer > timerLeft){
                     shoot();
+                    timer = 0;
                  }
          }
 }

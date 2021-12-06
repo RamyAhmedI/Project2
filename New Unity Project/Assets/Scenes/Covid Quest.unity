@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1148,7 +1148,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -2616817171002951336, guid: c9bc790a133e19c40b64d6db4cfb7a22, type: 3}
       propertyPath: m_Size.x
-      value: 2.5861015
+      value: 1.8064651
       objectReference: {fileID: 0}
     - target: {fileID: -2616817171002951336, guid: c9bc790a133e19c40b64d6db4cfb7a22, type: 3}
       propertyPath: m_Size.y
@@ -1160,7 +1160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2616817171002951336, guid: c9bc790a133e19c40b64d6db4cfb7a22, type: 3}
       propertyPath: m_Center.x
-      value: -0.34485435
+      value: 0.044963837
       objectReference: {fileID: 0}
     - target: {fileID: -2616817171002951336, guid: c9bc790a133e19c40b64d6db4cfb7a22, type: 3}
       propertyPath: m_Center.y
@@ -3491,8 +3491,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.0875387, y: 4.5047545, z: 2.6154432}
-  m_Center: {x: 0.055436254, y: 1.7523773, z: 0.42237222}
+  m_Size: {x: 1.9258872, y: 4.5047545, z: 2.6154432}
+  m_Center: {x: -0.5253896, y: 1.7523773, z: 0.42237222}
 --- !u!54 &959251164
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4411,6 +4411,8 @@ MonoBehaviour:
   Syringe: {fileID: 8319239266732748428, guid: 3c6a897b13d62e24893b022246d48c3f, type: 3}
   character: {fileID: 1321702267}
   syringe_position: {x: 0, y: 0, z: 0}
+  timer: 1
+  timerLeft: 0.4
 --- !u!114 &1321702270
 MonoBehaviour:
   m_ObjectHideFlags: 0
