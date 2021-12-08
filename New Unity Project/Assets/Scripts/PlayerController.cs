@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject Syringe;
+    public GameObject life;
     public Transform character;
     public Vector3 syringe_position;
     int coolDown = 0;
@@ -42,5 +43,8 @@ public class PlayerController : MonoBehaviour
                     shoot();
                     timer = 0;
                  }
+                  /*if(life == null){
+                    Debug.Log("He ded");
+                  }*/
          }
 }
