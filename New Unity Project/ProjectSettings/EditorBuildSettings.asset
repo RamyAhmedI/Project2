@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Covid Quest.unity
+    guid: 992de6cd6769ab142a34594a8371b7e3
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 7f7061583279cb7428de0859c911682d
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 5eeb9e10e825f5d458eba7cf0752d361
   m_configObjects: {}

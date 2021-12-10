@@ -17,8 +17,13 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(timer > 0){
         timer = timer - Time.deltaTime;
         //clock.text = timer.ToString();
         clock.text = Mathf.Round(timer).ToString();
+        }
+        else if(timer < 0 ){
+            Application.LoadLevel("Level2");
+        }
     }
 }

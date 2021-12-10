@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     int coolDown = 0;
     int shotsFired = 0;
     public float timer;
-    public float timerLeft = 1.0f;
+    public float timerLeft = 0.5f;
     // Start is called before the first frame update
     void Start()
     {
