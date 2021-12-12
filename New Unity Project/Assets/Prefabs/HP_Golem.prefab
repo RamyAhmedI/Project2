@@ -288,10 +288,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4168634819871070}
   - component: {fileID: 95247164175502188}
-  - component: {fileID: -6052704968605729857}
   - component: {fileID: 7662854668629574482}
   - component: {fileID: -2616817171002951336}
   - component: {fileID: -2483672496526605292}
+  - component: {fileID: -5577929828086120041}
   m_Layer: 0
   m_Name: HP_Golem
   m_TagString: Untagged
@@ -334,18 +334,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &-6052704968605729857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1438169871030806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4061e86ba8210648908b3ca10027c7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7662854668629574482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,6 +376,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-5577929828086120041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438169871030806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c12b8f03dbda3945b5574927247b682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hero: {fileID: 5990948843263464360, guid: ab099871053e30b4cbd566e7f777d9f1, type: 3}
 --- !u!1 &1457912190622302
 GameObject:
   m_ObjectHideFlags: 0

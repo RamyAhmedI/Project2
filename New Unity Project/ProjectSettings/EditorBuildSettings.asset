@@ -6,12 +6,42 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Covid Quest.unity
+    path: Assets/Scenes/Menu.unity
+    guid: 538a352ee14d32e409e37adc70c37124
+  - enabled: 1
+    path: Assets/Scenes/ControlMenu.unity
+    guid: 0dbec6c3d3c030b4d9a44cb00ee20d44
+  - enabled: 1
+    path: Assets/Scenes/SelectMenu.unity
+    guid: fc5041a24723e114a92d1480b914c293
+  - enabled: 1
+    path: Assets/Scenes/StoryIntro.unity
+    guid: 91832baa5586aeb44be0fcfc9e1e61af
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
     guid: 992de6cd6769ab142a34594a8371b7e3
+  - enabled: 1
+    path: Assets/Scenes/StoryLine2.unity
+    guid: 5f0e2901fde16ab4b9416f3c86275e32
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: 7f7061583279cb7428de0859c911682d
   - enabled: 1
+    path: Assets/Scenes/StoryLine3.unity
+    guid: ad792a397173c9e4f9629d8d8547bded
+  - enabled: 1
     path: Assets/Scenes/Level3.unity
     guid: 5eeb9e10e825f5d458eba7cf0752d361
+  - enabled: 1
+    path: Assets/Scenes/StoryLine4.unity
+    guid: d114088c2ae48dd4bbbd660ebd981028
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: ad8b2b1e70b78c0458227d96570d4405
+  - enabled: 1
+    path: Assets/Scenes/GameOver2.unity
+    guid: 9be8a1678d7fbf64d90d4f785878212c
+  - enabled: 1
+    path: Assets/Scenes/GameOver3.unity
+    guid: 699f0b903b599764f8e386522b17c419
   m_configObjects: {}

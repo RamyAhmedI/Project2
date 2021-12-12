@@ -14,9 +14,13 @@ public class DetectCollision3Enemy : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
-        Destroy(other.gameObject);
-
+       if(other.tag == "Player"){
+            Application.LoadLevel("GameOver3");
+       }
+        else{
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+        }
         for(int i = 0; i< 1; i++){
             Status();
         }

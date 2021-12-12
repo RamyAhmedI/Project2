@@ -325,6 +325,7 @@ GameObject:
   - component: {fileID: -8291943618054416206}
   - component: {fileID: 5039520522046062080}
   - component: {fileID: -7222665138107025053}
+  - component: {fileID: -667829093116018407}
   m_Layer: 0
   m_Name: Polyart_Golem
   m_TagString: Untagged
@@ -379,6 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4061e86ba8210648908b3ca10027c7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hero: {fileID: 0}
 --- !u!114 &-8291943618054416206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -421,6 +423,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-667829093116018407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077356408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c12b8f03dbda3945b5574927247b682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hero: {fileID: 5990948843263464360, guid: ab099871053e30b4cbd566e7f777d9f1, type: 3}
 --- !u!1 &1099011281
 GameObject:
   m_ObjectHideFlags: 0

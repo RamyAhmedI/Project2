@@ -23,7 +23,7 @@ public class Timer3 : MonoBehaviour
         clock.text = Mathf.Round(timer).ToString();
         }
         else if(timer < 0 ){
-            Application.LoadLevel("Level3");
+            Application.LoadLevel("StoryLine4");
         }
     }
 }
