@@ -171,6 +171,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral5A3363081CB172E7A8B903B5702E803EC955ACC7
 IL2CPP_EXTERN_C String_t* _stringLiteral7D341415782A02FC2C80E5EF6D3EAAE65DC089D9;
 IL2CPP_EXTERN_C String_t* _stringLiteral87C9B2EBFA83D9CF0D0A7F1EFE2973AD8AEDF9F8;
 IL2CPP_EXTERN_C String_t* _stringLiteral94E0C11250592472CE47758FDB7E25CB9B37BBA7;
+IL2CPP_EXTERN_C String_t* _stringLiteral989AE76B39C8B41D00B584BA066C105EE2B58593;
 IL2CPP_EXTERN_C String_t* _stringLiteral996484D59C4769412B09756E24CC9ACA6DCEFDD7;
 IL2CPP_EXTERN_C String_t* _stringLiteralBCB1A03CACCF68D5BD87C116DDA5402FDB8400BB;
 IL2CPP_EXTERN_C String_t* _stringLiteralC62B61BC27E509D700023566A09D2AE606BE85A7;
@@ -2615,6 +2616,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectCollision3Enemy_Status_m2CC9A7A553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectCollision3Syringe_Status_m4EFCD76687050F47FB96AE37AF77522A287F78C3 (DetectCollision3Syringe_t4DAFF538C470D8AB5DEEE4F8180E662BE569F522 * __this, const RuntimeMethod* method);
 // System.Void DetectCollisionEnemy::Status()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectCollisionEnemy_Status_m058723E49CCEC84501101AAE64A8EC964B4EDEA5 (DetectCollisionEnemy_tA2322DB5FE764D72053DF99F350F995518F59DDC * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.Application::OpenURL(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_OpenURL_m4AED08D5321E5395FAC8D91C2C428DBE60C5FD4E (String_t* ___url0, const RuntimeMethod* method);
 // System.Void UnityEngine.Application::Quit()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_m8D720E5092786C2EE32310D85FE61C253D3B1F2A (const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Vector3::get_forward()
@@ -4259,6 +4262,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Menu_ControlMenu_mBD55BC7CB8C74F96499244
 		return;
 	}
 }
+// System.Void Menu::OpenGithub()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Menu_OpenGithub_m6897A862E914C90958DBAADD2CEA82EC17576B4A (Menu_t9BC67061F8954119BDB8CE5A0C0B6E1AA114C0D6 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral989AE76B39C8B41D00B584BA066C105EE2B58593);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// UnityEngine.Application.OpenURL("https://github.com/RamyAhmedI/Project2");
+		Application_OpenURL_m4AED08D5321E5395FAC8D91C2C428DBE60C5FD4E(_stringLiteral989AE76B39C8B41D00B584BA066C105EE2B58593, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
 // System.Void Menu::QuitGame()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Menu_QuitGame_mC0A307F2681D0D684232694A10404FAAA8269A7A (Menu_t9BC67061F8954119BDB8CE5A0C0B6E1AA114C0D6 * __this, const RuntimeMethod* method)
 {
@@ -5000,10 +5019,50 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Select_Back_mD80394AEFCBC6F9BA1EDD8A2484
 		return;
 	}
 }
-// System.Void Select::Update()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Select_Update_mDF503590B548BB0E1C19C48613F7D76763149A9A (Select_t6A36C33B8C7ABE0D23B98DE7D2D07998F0844DF9 * __this, const RuntimeMethod* method)
+// System.Void Select::Level1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Select_Level1_mF938D5C21453DFB42E6851B8D89153CB5A0C0BB6 (Select_t6A36C33B8C7ABE0D23B98DE7D2D07998F0844DF9 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC83B6926DE498999BC7E3D5467A98CDE9B139901);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// UnityEngine.Application.LoadLevel("Level1");
+		Application_LoadLevel_m4DB7F36B66B70C1DB7F4F762A1DA554A028B135A(_stringLiteralC83B6926DE498999BC7E3D5467A98CDE9B139901, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void Select::Level2()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Select_Level2_m9DEECC62E9453789848061B4BA6DB870DE9EE7AC (Select_t6A36C33B8C7ABE0D23B98DE7D2D07998F0844DF9 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral330BC37D8463B5B010EF864F4DEDBCB8387FDEA8);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Application.LoadLevel("Level2");
+		Application_LoadLevel_m4DB7F36B66B70C1DB7F4F762A1DA554A028B135A(_stringLiteral330BC37D8463B5B010EF864F4DEDBCB8387FDEA8, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void Select::Level3()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Select_Level3_m413A66E84F1FA511269F99BBE176575CF3597829 (Select_t6A36C33B8C7ABE0D23B98DE7D2D07998F0844DF9 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7D341415782A02FC2C80E5EF6D3EAAE65DC089D9);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Application.LoadLevel("Level3");
+		Application_LoadLevel_m4DB7F36B66B70C1DB7F4F762A1DA554A028B135A(_stringLiteral7D341415782A02FC2C80E5EF6D3EAAE65DC089D9, /*hidden argument*/NULL);
 		// }
 		return;
 	}

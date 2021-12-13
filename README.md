@@ -19,23 +19,21 @@ Map design and coding: Ramy
 
 Work done:
 
-Eason - Created map, added assets, added shooting, added collision detection, added rigidbody
+Eason - Created Level 2 (Map Design , Code, Music), Wrote Story Line, Created ControlsMenu, Created GithubPage, Created Story Scenes 1-2, Created Game Over 1-2.
 
-Ramy - Downloaded assets, added movement, added box collider, added spawn system, added out of bounds.
+Ramy - Created Level 3 (Map Design , Code, Music), Wrote Story Line, Created Menu , Created SelectMenu, Created Story Scenes 3-4, Created Game Over 3.  
 
  
 
 Links:
 
-https://github.com/RamyAhmedI/Project
+https://github.com/RamyAhmedI/Project2
 
-https://ramyahmedi.github.io/Project/index.html
 
- 
 
 Controls:
 
-Arrow keys for movement.
+Arrow keys to turn.
 
 Space to shoot.
 

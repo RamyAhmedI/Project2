@@ -21,6 +21,10 @@ public class Menu : MonoBehaviour
         Application.LoadLevel("ControlMenu");
     }
 
+    public void OpenGithub()
+    {
+         UnityEngine.Application.OpenURL("https://github.com/RamyAhmedI/Project2");
+    }
     public void QuitGame()
     {
         Application.Quit();

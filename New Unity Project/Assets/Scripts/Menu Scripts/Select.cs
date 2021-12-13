@@ -11,8 +11,18 @@ public class Select : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Level1()
     {
-        
+        UnityEngine.Application.LoadLevel("Level1");
+    }
+
+    public void Level2()
+    {
+        Application.LoadLevel("Level2");
+    }
+
+    public void Level3()
+    {
+        Application.LoadLevel("Level3");
     }
 }
